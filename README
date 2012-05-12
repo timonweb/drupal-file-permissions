@@ -1,0 +1,9 @@
+This script encorporates best practices in securing file permissions
+for Drupal outlined here: http://drupal.org/node/244924
+
+The script performs some checks before any modification to ensure it is not applied on files/directories outside your drupal installation.
+
+Run the script as follows: 
+"sudo bash fix-permissions.sh your/drupal/path your_user_name"
+
+Note: The server group name is assumed "www-data", if it differs modify it in the script code
